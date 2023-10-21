@@ -1,11 +1,11 @@
-# Sample Hardhat Project
+# Hello, world solidity contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project is a simple "Hellow World" project.
 
-Try running some of the following tasks:
+To test, try running some of the following tasks:
 
 ```shell
-npx hardhat help
+npx hardhat help 
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
