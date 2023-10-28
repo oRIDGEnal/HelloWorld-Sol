@@ -4,7 +4,11 @@ pragma solidity ^0.8.19;
 contract HelloWorld {
     string public greeting;
 
-    function printHello(string memory greet) public {
+    function setHello(string memory greet) public {
         greeting = greet;
+    }
+
+    function getGreeting() public view returns (string memory) {
+        return greeting;
     }
 }
